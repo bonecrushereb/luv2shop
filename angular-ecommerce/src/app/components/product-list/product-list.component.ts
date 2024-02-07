@@ -76,6 +76,11 @@ export class ProductListComponent implements OnInit {
         .subscribe(this.processResult())
         
         }
+
+        addToCart(theProduct: Product) {
+          
+        }
+
         updatePageSize(pageSize: string) {
           this.thePageSize = +pageSize;
           this.thePageNumber = 1;
